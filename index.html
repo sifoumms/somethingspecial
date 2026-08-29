@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Really cool website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scene" aria-live="polite">
+      <div class="flower-cluster top-row" aria-hidden="true">
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f1" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f2" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f3" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f4" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f5" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f6" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower top-f7" />
+      </div>
+
+      <div class="flower-cluster bottom-row" aria-hidden="true">
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b1" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b2" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b3" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b4" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b5" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b6" />
+        <img src="./images/carnation-flower-pink-carnation-flower-mpt9PE8C_t-removebg-preview.png" alt="Flower" class="real-flower b7" />
+      </div>
+
+      <div class="squirrel-image-wrap" aria-hidden="true">
+        <img src="./images/squirrel.png" alt="Squirrel" class="squirrel-image" />
+      </div>
+
+      <div class="prompt" id="passwordPrompt">
+        <div class="bubble">
+          <p>Hey there! What is the password?</p>
+          <div class="input-row password-field-row">
+            <div class="password-input-wrap">
+              <input id="passwordInput" type="password" placeholder="Password" aria-label="Password" />
+              <button type="button" id="togglePasswordBtn" class="password-toggle" aria-label="Show password" title="Show password">👁️</button>
+            </div>
+            <button type="button" id="unlockBtn">Unlock</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="prompt" id="gifPrompt" style="display: none;">
+        <div class="bubble">
+          <p>squirrel has a gift for you(not this faggot that keeps showing up)</p>
+          <div class="input-row">
+            <button type="button" id="yesBtn" class="choice-btn">yes</button>
+            <button type="button" id="noBtn" class="choice-btn">no</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
